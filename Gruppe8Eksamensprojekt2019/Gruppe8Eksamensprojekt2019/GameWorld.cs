@@ -12,8 +12,6 @@ namespace Gruppe8Eksamensprojekt2019
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        //TEST
-
         public GameWorld()
         {
             graphics = new GraphicsDeviceManager(this);
