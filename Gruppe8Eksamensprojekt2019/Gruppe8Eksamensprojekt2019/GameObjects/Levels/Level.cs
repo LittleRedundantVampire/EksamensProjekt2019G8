@@ -16,8 +16,6 @@ namespace Gruppe8Eksamensprojekt2019
 		protected Texture2D background;
 
 
-		protected abstract void LoadContent(ContentManager content);
-
 		protected abstract void ChangeLevel();
 
 		protected abstract void LevelSetup();

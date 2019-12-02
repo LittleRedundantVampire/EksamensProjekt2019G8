@@ -39,7 +39,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected abstract void Update(GameTime gameTime);
 
-        protected abstract void Load(ContentManager Content);
+        protected abstract void LoadContent(ContentManager Content);
 
         protected virtual void CheckCollision(GameObject gameObject)
         {
@@ -51,9 +51,11 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        protected virtual void Move()
+        protected virtual void Move(GameTime gameTime)
         {
+            float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            position += ((velocity * speed) * deltaTime);
         }
     }
 }

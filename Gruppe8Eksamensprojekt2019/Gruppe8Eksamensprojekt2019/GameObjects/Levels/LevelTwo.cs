@@ -10,7 +10,7 @@ namespace Gruppe8Eksamensprojekt2019
 {
     class LevelTwo : Level
     {
-        protected override void Load(ContentManager Content)
+        protected override void LoadContent(ContentManager Content)
         {
             
         }
@@ -18,11 +18,6 @@ namespace Gruppe8Eksamensprojekt2019
         protected override void Update(GameTime gameTime)
         {
             
-        }
-
-        protected override void LoadContent(ContentManager content)
-        {
-
         }
 
         protected override void ChangeLevel()

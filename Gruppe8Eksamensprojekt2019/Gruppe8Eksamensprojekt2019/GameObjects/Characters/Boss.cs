@@ -18,10 +18,10 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected override void Update(GameTime gameTime)
         {
-   
+            Move(gameTime);
         }
 
-        protected override void Load(ContentManager Content)
+        protected override void LoadContent(ContentManager Content)
         {
 
         }
@@ -42,11 +42,6 @@ namespace Gruppe8Eksamensprojekt2019
         }
 
         protected override void Speak()
-        {
-
-        }
-
-        protected override void Move()
         {
 
         }
