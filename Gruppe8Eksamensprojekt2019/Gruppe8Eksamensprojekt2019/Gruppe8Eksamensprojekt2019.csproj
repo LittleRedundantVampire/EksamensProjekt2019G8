@@ -41,19 +41,29 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BreakableObject.cs" />
-    <Compile Include="GameObject.cs" />
-    <Compile Include="Crate.cs" />
-    <Compile Include="Enemy.cs" />
+    <Compile Include="GameObjects\LevelObjects\BreakableObjects\BreakableObject.cs" />
+    <Compile Include="GameObjects\LevelObjects\MoveableObjects\MoveableObject.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameWorld.cs" />
-    <Compile Include="Level.cs" />
-    <Compile Include="LevelOne.cs" />
-    <Compile Include="Boss.cs" />
-    <Compile Include="Character.cs" />
-    <Compile Include="GameWorld.cs" />
+    <Compile Include="GameObjects\LevelObjects\MoveableObjects\Crate.cs" />
+    <Compile Include="GameObjects\Characters\Enemy.cs" />
+    <Compile Include="GameObjects\Levels\Level.cs" />
+    <Compile Include="GameObjects\Levels\LevelOne.cs" />
+    <Compile Include="GameObjects\Levels\LevelTwo.cs" />
+    <Compile Include="GameObjects\Characters\Boss.cs" />
+    <Compile Include="GameObjects\Characters\Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vase.cs" />
+    <Compile Include="GameObjects\LevelObjects\BreakableObjects\Vase.cs" />
+    <Compile Include="GameObjects\Characters\NPC.cs" />
+    <Compile Include="GameObjects\Characters\Player.cs" />
+    <Compile Include="GameObjects\LevelObjects\Chest.cs" />
+    <Compile Include="GameObjects\LevelObjects\Door.cs" />
+    <Compile Include="GameObjects\LevelObjects\Item.cs" />
+    <Compile Include="GameObjects\Ability.cs" />
+    <Compile Include="GameObjects\LevelObjects\Shadow.cs" />
+    <Compile Include="GameObjects\LevelObjects\Wall.cs" />
+    <Compile Include="GameObjects\TextBox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -69,9 +79,10 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
