@@ -12,9 +12,10 @@ namespace Gruppe8Eksamensprojekt2019
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        //TEST
+
         public GameWorld()
         {
-            //int test
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
