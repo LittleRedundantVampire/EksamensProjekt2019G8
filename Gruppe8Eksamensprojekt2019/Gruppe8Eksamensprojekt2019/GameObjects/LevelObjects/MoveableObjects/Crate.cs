@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,16 @@ namespace Gruppe8Eksamensprojekt2019
     class Crate : MoveableObject
     {
         public Crate(Texture2D sprite, Vector2 position, bool hasShadow)
+        {
+
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            Move(gameTime);
+        }
+
+        protected override void LoadContent(ContentManager Content)
         {
 
         }

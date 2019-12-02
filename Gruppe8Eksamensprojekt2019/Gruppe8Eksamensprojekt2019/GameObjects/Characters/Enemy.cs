@@ -30,20 +30,15 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected override void Update(GameTime gameTime)
         {
-
+            Move(gameTime);
         }
 
-        protected override void Load(ContentManager Content)
+        protected override void LoadContent(ContentManager Content)
         {
 
         }
 
         protected override void UseAbility(AbilityType ability)
-		{
-
-		}
-
-		protected override void Move()
 		{
 
 		}
