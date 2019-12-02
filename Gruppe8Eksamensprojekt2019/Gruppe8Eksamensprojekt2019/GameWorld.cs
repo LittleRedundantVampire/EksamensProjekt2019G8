@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+using System.Collections.Generic;
 
 namespace Gruppe8Eksamensprojekt2019
 {
@@ -12,7 +14,17 @@ namespace Gruppe8Eksamensprojekt2019
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        //TEST
+        private List<GameObject> playerAbilities = new List<GameObject>();
+        private List<GameObject> shadows = new List<GameObject>();
+        private List<GameObject> gameObjects = new List<GameObject>();
+        private List<GameObject> newObjects = new List<GameObject>();
+        private List<GameObject> deleteObjects = new List<GameObject>();
+
+        private Song currentMusic;
+        private byte currentLevel;
+
+        protected Texture2D collisionTexture;
+
 
         public GameWorld()
         {
@@ -80,6 +92,11 @@ namespace Gruppe8Eksamensprojekt2019
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
+        }
+        
+        private void DrawCollisionBox(GameObject gameObject)
+        { 
+
         }
     }
 }
