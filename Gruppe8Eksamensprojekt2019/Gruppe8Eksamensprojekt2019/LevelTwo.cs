@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Content;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,16 +9,16 @@ namespace Gruppe8Eksamensprojekt2019
 {
     class LevelTwo
     {
-        private void LoadContent(ContentManager content)
+        public void LoadContent(ContentManager content)
         {
 
         }
-        private void ChangeLevel()
+        public void ChangeLevel()
         {
 
         }
 
-        private void LevelSetUp()
+        public void LevelSetUp()
         {
 
         }
