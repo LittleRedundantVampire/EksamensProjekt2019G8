@@ -14,6 +14,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         public GameWorld()
         {
+            //int test
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
