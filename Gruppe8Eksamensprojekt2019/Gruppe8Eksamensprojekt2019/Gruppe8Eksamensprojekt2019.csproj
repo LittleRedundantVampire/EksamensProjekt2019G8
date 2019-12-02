@@ -45,6 +45,9 @@
     <Compile Include="GameWorld.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="LevelOne.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="GameWorld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
