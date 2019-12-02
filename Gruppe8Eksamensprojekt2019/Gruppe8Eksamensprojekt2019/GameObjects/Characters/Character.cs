@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace Gruppe8Eksamensprojekt2019
 {
-    enum Ability { Sunblock, Fire, Ice };
+    enum AbilityType { Sunblock, Fire, Ice };
 
-    abstract class Character
+    abstract class Character : GameObject
     {
         protected int health;
         protected int damage;
         protected string name;
 
 
-        public virtual void UpdateHealth(int health, int amount)
+        protected virtual void UpdateHealth(int health, int amount)
         {
 
         }
 
-        public virtual void Attack()
+        protected virtual void Attack()
         {
 
         }
 
-        public virtual void UseAbility(Ability ability)
+        protected virtual void UseAbility(AbilityType ability)
         {
 
         }
 
-        public virtual void Speak()
+        protected virtual void Speak()
         {
 
         }

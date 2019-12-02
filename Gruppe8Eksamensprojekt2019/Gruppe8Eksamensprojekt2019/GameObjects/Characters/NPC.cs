@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Gruppe8Eksamensprojekt2019
 {
-    class NPC
+    class NPC : Character
     {
         private SpriteFont dialog;
         private bool interactingWithPlayer;
@@ -18,22 +19,32 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
+        protected override void Update(GameTime gameTime)
+        {
+           
+        }
+
+        protected override void Load(ContentManager Content)
+        {
+           
+        }
+
         private void GivePrompt()
         {
 
         }
 
-        private void Speak()
+        protected override void Speak()
         {
 
         }
 
-        private void OnCollision(GameObject other)
+        protected override void OnCollision(GameObject other)
         {
 
         }
 
-        private void Push()
+        protected void Push()
         {
 
         }

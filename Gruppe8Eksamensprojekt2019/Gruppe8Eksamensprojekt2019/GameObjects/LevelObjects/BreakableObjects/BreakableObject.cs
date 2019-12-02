@@ -14,17 +14,15 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected abstract void Break();
 
+
         protected override void Update(GameTime gameTime)
         {
 
         }
 
-
         protected override void Load(ContentManager Content)
         {
 
         }
-
-
     }
 }

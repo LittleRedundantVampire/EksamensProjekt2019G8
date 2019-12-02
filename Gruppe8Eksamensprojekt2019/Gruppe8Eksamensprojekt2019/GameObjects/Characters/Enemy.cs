@@ -1,4 +1,6 @@
-﻿using Microsoft.Xna.Framework.Audio;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,32 +20,45 @@ namespace Gruppe8Eksamensprojekt2019
 		/// <param name=""></param>
 		/// <param name=""></param>
 		/// <param name=""></param>
-		public Enemy(name, health, position, ability)
+        
+
+		public Enemy(string name, int health, Vector2 position, Ability ability)
 		{
 
 		}
 
-		private void UseAbility(Ability ability)
+
+        protected override void Update(GameTime gameTime)
+        {
+
+        }
+
+        protected override void Load(ContentManager Content)
+        {
+
+        }
+
+        protected override void UseAbility(AbilityType ability)
 		{
 
 		}
 
-		public override void Move()
+		protected override void Move()
 		{
 
 		}
 
-		public override void UpdateHealth(health, amount)
+		protected override void UpdateHealth(int health, int amount)
 		{
 
 		}
 
-		public override void Attack()
+		protected override void Attack()
 		{
 
 		}
 
-		public override void OnCollision(GameObject other)
+		protected override void OnCollision(GameObject other)
 		{
 
 		}

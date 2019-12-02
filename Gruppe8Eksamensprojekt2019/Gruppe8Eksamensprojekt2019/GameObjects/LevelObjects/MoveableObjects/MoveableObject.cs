@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 
 namespace Gruppe8Eksamensprojekt2019
 {
-    class MoveableObject : GameObject
+    abstract class MoveableObject : GameObject
     {
         protected bool isCollidingMO;
 
-        protected void Push()
-        {
 
+        protected override void Update(GameTime gameTime)
+        {
+            
         }
+
+        protected override void Load(ContentManager Content)
+        {
+            
+        }
+
+        protected abstract void Push();
     }
 }

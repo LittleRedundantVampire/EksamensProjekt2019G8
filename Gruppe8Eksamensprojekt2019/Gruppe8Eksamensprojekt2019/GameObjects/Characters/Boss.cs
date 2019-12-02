@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,32 +15,43 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        public override void UpdateHealth(int health, int amount)
+
+        protected override void Update(GameTime gameTime)
+        {
+   
+        }
+
+        protected override void Load(ContentManager Content)
         {
 
         }
 
-        public override void Attack()
+        protected override void UpdateHealth(int health, int amount)
         {
 
         }
 
-        public override void UseAbility(Ability ability)
+        protected override void Attack()
         {
 
         }
 
-        public override void Speak()
+        protected override void UseAbility(AbilityType ability)
         {
 
         }
 
-        public override void Move()
+        protected override void Speak()
         {
 
         }
 
-        public override void OnCollision(GameObject other)
+        protected override void Move()
+        {
+
+        }
+
+        protected override void OnCollision(GameObject other)
         {
 
         }

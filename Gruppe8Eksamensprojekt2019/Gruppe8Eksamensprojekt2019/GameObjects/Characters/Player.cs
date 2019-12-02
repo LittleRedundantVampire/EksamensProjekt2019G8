@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,18 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        private void Move()
+
+        protected override void Update(GameTime gameTime)
+        {
+
+        }
+
+        protected override void Load(ContentManager Content)
+        {
+  
+        }
+
+        protected override void Move()
         {
 
         }
@@ -33,7 +45,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        private void Attack()
+        protected override void Attack()
         {
 
         }
@@ -43,7 +55,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        private void UseAbility(Ability ability)
+        protected override void UseAbility(AbilityType ability)
         {
 
         }
@@ -53,7 +65,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         }
 
-        private void OnCollision(GameObject other)
+        protected override void OnCollision(GameObject other)
         {
 
         }

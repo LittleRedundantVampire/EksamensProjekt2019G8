@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Content;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,18 +8,29 @@ using System.Threading.Tasks;
 
 namespace Gruppe8Eksamensprojekt2019
 {
-    class LevelTwo
+    class LevelTwo : Level
     {
-        public void LoadContent(ContentManager content)
+        protected override void Load(ContentManager Content)
+        {
+            
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            
+        }
+
+        protected override void LoadContent(ContentManager content)
         {
 
         }
-        public void ChangeLevel()
+
+        protected override void ChangeLevel()
         {
 
         }
 
-        public void LevelSetUp()
+        protected override void LevelSetup()
         {
 
         }
