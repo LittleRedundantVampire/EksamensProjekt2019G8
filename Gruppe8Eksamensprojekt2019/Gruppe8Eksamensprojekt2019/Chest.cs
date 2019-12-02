@@ -20,7 +20,7 @@ namespace Gruppe8Eksamensprojekt2019
         {
 
         }
-        private void GivePrompt()
+        public void GivePrompt()
         {
 
         }
