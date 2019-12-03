@@ -25,7 +25,7 @@ namespace Gruppe8Eksamensprojekt2019
             
         }
 
-        protected override void LoadContent(ContentManager Content)
+        protected override void LoadContent(ContentManager content)
         {
             
         }

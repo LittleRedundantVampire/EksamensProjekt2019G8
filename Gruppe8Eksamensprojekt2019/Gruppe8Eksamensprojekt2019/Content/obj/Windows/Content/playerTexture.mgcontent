@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/admin/Documents/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/playerTexture.png</SourceFile>
-  <SourceTime>2019-12-03T09:16:32.6577375+01:00</SourceTime>
-  <DestFile>C:/Users/admin/Documents/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/bin/Windows/Content/playerTexture.xnb</DestFile>
-  <DestTime>2019-12-03T12:38:23.9612548+01:00</DestTime>
+  <SourceFile>C:/Users/Signe/Desktop/Skole/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/playerTexture.png</SourceFile>
+  <SourceTime>2019-12-02T14:16:09.0580398+01:00</SourceTime>
+  <DestFile>C:/Users/Signe/Desktop/Skole/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/bin/Windows/Content/playerTexture.xnb</DestFile>
+  <DestTime>2019-12-03T12:43:41.6965491+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

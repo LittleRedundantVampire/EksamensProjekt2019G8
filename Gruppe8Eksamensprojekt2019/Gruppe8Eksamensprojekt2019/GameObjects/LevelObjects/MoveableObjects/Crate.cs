@@ -21,7 +21,7 @@ namespace Gruppe8Eksamensprojekt2019
             Move(gameTime);
         }
 
-        protected override void LoadContent(ContentManager Content)
+        protected override void LoadContent(ContentManager content)
         {
 
         }

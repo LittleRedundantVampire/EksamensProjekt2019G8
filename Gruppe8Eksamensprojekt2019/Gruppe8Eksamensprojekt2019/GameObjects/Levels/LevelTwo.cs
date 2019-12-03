@@ -10,7 +10,7 @@ namespace Gruppe8Eksamensprojekt2019
 {
     class LevelTwo : Level
     {
-        protected override void LoadContent(ContentManager Content)
+        protected override void LoadContent(ContentManager content)
         {
             
         }
