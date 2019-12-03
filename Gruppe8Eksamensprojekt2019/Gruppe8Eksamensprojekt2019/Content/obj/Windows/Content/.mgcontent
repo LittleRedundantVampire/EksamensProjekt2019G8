@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/admin/Documents/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/playerTexture.png</File>
-    <File>C:/Users/admin/Documents/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/wallTexture.png</File>
+    <File>C:/Users/Stinn/OneDrive/Dokumenter/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/playerTexture.png</File>
+    <File>C:/Users/Stinn/OneDrive/Dokumenter/GitHub/EksamensProjekt2019G8/Gruppe8Eksamensprojekt2019/Gruppe8Eksamensprojekt2019/Content/wallTexture.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

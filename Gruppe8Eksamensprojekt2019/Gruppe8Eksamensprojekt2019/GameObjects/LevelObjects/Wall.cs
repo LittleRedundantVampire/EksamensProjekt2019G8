@@ -22,7 +22,7 @@ namespace Gruppe8Eksamensprojekt2019
             base.position = position;
         }
 
-        protected override void LoadContent(ContentManager content)
+        public override void LoadContent(ContentManager content)
         {
             sprite = content.Load<Texture2D>("wallTexture");
         }

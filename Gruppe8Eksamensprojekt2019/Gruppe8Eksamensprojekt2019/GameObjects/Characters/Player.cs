@@ -32,7 +32,7 @@ namespace Gruppe8Eksamensprojekt2019
             HandleInput();
         }
 
-        protected override void LoadContent(ContentManager content)
+        public override void LoadContent(ContentManager content)
         {
             playerSprite = content.Load<Texture2D>("playerTexture");
         }

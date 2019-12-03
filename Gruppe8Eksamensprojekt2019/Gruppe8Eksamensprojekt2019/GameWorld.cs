@@ -24,7 +24,7 @@ namespace Gruppe8Eksamensprojekt2019
         private byte currentLevel;
         protected Texture2D collisionTexture;
 
-        Level levelUno;
+        Level levelOne;
 
 
         public GameWorld()
@@ -43,9 +43,10 @@ namespace Gruppe8Eksamensprojekt2019
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            levelOne = new LevelOne();
 
             base.Initialize();
-            levelUno = new Level();
+            
         }
 
         /// <summary>
@@ -56,18 +57,6 @@ namespace Gruppe8Eksamensprojekt2019
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            levelUno.GenerateLevel(new int[,]
-        {
-
-                {1,1,1,1,1,1,1,1,1},
-                {1,0,0,0,1,0,0,0,1},
-                {1,0,0,0,0,0,0,0,1},
-                {1,0,0,0,0,0,0,0,1},
-                {1,0,0,0,1,0,0,0,1},
-                {1,1,1,1,1,1,0,1,1},
-
-        }, 32);
 
             foreach (GameObject gO in gameObjects)
             {

@@ -31,17 +31,14 @@ namespace Gruppe8Eksamensprojekt2019
             get { return collisionBox; }
         }
 
-
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-
+            spriteBatch.Draw(sprite, position, null, Color.White, 0, new Vector2(0, 0), 1, SpriteEffects.None, 0);
         }
-
-
 
         protected abstract void Update(GameTime gameTime);
 
-        public abstract void LoadContent(ContentManager Content);
+        public abstract void LoadContent(ContentManager content);
 
         protected virtual void CheckCollision(GameObject gameObject)
         {
