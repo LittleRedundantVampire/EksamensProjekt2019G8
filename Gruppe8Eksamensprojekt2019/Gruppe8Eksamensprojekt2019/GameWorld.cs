@@ -16,7 +16,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         private List<GameObject> playerAbilities = new List<GameObject>();
         private List<GameObject> shadows = new List<GameObject>();
-        private List<GameObject> gameObjects = new List<GameObject>();
+        public static List<GameObject> gameObjects = new List<GameObject>();
         private List<GameObject> newObjects = new List<GameObject>();
         private List<GameObject> deleteObjects = new List<GameObject>();
 
@@ -24,11 +24,14 @@ namespace Gruppe8Eksamensprojekt2019
         private byte currentLevel;
         protected Texture2D collisionTexture;
 
+        Level levelUno;
+
 
         public GameWorld()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            
         }
 
         /// <summary>
@@ -42,6 +45,7 @@ namespace Gruppe8Eksamensprojekt2019
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            levelUno = new Level();
         }
 
         /// <summary>
@@ -52,6 +56,23 @@ namespace Gruppe8Eksamensprojekt2019
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            levelUno.GenerateLevel(new int[,]
+        {
+
+                {1,1,1,1,1,1,1,1,1},
+                {1,0,0,0,1,0,0,0,1},
+                {1,0,0,0,0,0,0,0,1},
+                {1,0,0,0,0,0,0,0,1},
+                {1,0,0,0,1,0,0,0,1},
+                {1,1,1,1,1,1,0,1,1},
+
+        }, 32);
+
+            foreach (GameObject gO in gameObjects)
+            {
+                gO.LoadContent(Content);
+            }
 
             // TODO: use this.Content to load your game content here
         }
@@ -89,6 +110,13 @@ namespace Gruppe8Eksamensprojekt2019
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            foreach (GameObject gO in gameObjects)
+            {
+                gO.Draw(spriteBatch);
+            }
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

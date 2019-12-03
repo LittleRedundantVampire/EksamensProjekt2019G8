@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Gruppe8Eksamensprojekt2019
 {
-    abstract class GameObject
+    public abstract class GameObject
     {
         private Rectangle collisionBox;
 
@@ -32,14 +32,16 @@ namespace Gruppe8Eksamensprojekt2019
         }
 
 
-        protected virtual void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
 
         }
 
+
+
         protected abstract void Update(GameTime gameTime);
 
-        protected abstract void LoadContent(ContentManager Content);
+        public abstract void LoadContent(ContentManager Content);
 
         protected virtual void CheckCollision(GameObject gameObject)
         {

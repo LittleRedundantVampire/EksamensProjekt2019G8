@@ -11,15 +11,20 @@ namespace Gruppe8Eksamensprojekt2019
 {
     class Wall : GameObject
     {
-        public Wall(Texture2D sprite, Vector2 position, bool hasShadow)
-        {
+        
+        //public Wall(Texture2D sprite, Vector2 position, bool hasShadow)
+        //{
 
+        //}
+        
+        public Wall(Vector2 position)
+        {
+            base.position = position;
         }
 
-
-        protected override void LoadContent(ContentManager Content)
+        protected override void LoadContent(ContentManager content)
         {
-           
+            sprite = content.Load<Texture2D>("wallTexture");
         }
 
         protected override void Update(GameTime gameTime)
