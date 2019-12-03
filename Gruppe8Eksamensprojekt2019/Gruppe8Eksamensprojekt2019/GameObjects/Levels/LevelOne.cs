@@ -11,9 +11,6 @@ namespace Gruppe8Eksamensprojekt2019
 {
 	class LevelOne : Level
 	{
-        private Texture2D wallSprite; // NEW
-
-
         public LevelOne()
         {
             GenerateLevel(new int[,]
@@ -31,7 +28,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         public override void LoadContent(ContentManager content)
         {
-            wallSprite = content.Load<Texture2D>("wallTexture");
+            
         }
 
         protected override void Update(GameTime gameTime)

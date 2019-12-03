@@ -33,7 +33,6 @@ namespace Gruppe8Eksamensprojekt2019
                     {
                         GameWorld.gameObjects.Add(new Wall(new Vector2(x * size, y * size)));
                     }
-
                 }
             }
         }
