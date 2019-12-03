@@ -20,7 +20,7 @@ namespace Gruppe8Eksamensprojekt2019
 		/// <param name=""></param>
 		/// <param name=""></param>
 		/// <param name=""></param>
-        
+
 
 		public Enemy(string name, int health, Vector2 position, Ability ability)
 		{

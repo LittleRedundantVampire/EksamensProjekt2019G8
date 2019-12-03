@@ -12,12 +12,12 @@ namespace Gruppe8Eksamensprojekt2019
     {
         public override void LoadContent(ContentManager content)
         {
-            
+
         }
 
         protected override void Update(GameTime gameTime)
         {
-            
+
         }
 
         protected override void ChangeLevel()

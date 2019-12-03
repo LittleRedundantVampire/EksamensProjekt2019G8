@@ -22,12 +22,12 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected override void Update(GameTime gameTime)
         {
-            
+
         }
 
         public override void LoadContent(ContentManager content)
         {
-            
+
         }
 
         private void OpenDoor()

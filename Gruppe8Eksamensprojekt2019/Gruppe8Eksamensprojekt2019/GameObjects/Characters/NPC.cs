@@ -26,7 +26,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         public override void LoadContent(ContentManager content)
         {
-           
+
         }
 
         private void GivePrompt()

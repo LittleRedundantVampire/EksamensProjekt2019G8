@@ -28,7 +28,7 @@ namespace Gruppe8Eksamensprojekt2019
 
         protected override void Push()
         {
-           
+
         }
 
         protected override void OnCollision(GameObject other)
